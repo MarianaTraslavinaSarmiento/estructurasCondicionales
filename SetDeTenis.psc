@@ -12,26 +12,26 @@ Algoritmo SetDeTenis
 		
 		
 		Si player1 + player2 < 6 Entonces
-			Escribir "El juego aún no ha terminado"
+			Escribir "El juego aun no ha terminado"
 		Sino
 			Si player1 > player2 y player1 - player2 == 2 Entonces
-				Escribir "Ganó A"
+				Escribir "Gano A"
 			Sino
 				Si player2 > player1 y player2 - player1 == 2 Entonces
-					Escribir "Ganó B"
+					Escribir "Gano B"
 				Sino
 					Si player1 - player2 == -1 o player2 - player1 == -1 Entonces
 						Si player1 == 6 y player2 == 7 Entonces
-							Escribir "Ganó B"
+							Escribir "Gano B"
 						FinSi
 						Si player1 == 7 y player2 == 6 Entonces
-							Escribir "Ganó A"
+							Escribir "Gano A"
 						FinSi
 						Si No (player1 == 6 y player2 == 7) y No (player1 == 7 y player2 == 6) Entonces
-							Escribir "El juego aún no ha terminado"
+							Escribir "El juego aun no ha terminado"
 						FinSi
 					Sino
-						Escribir "Inválido"
+						Escribir "Invalido"
 					FinSi
 				FinSi
 			FinSi
